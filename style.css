@@ -3,9 +3,9 @@ body {
     margin: 0;
     padding: 0;
   }
-  header, main, footer {
-    padding: 20px;
-  }
+ 
+
+
   h1 {
     text-align: center;
   }
@@ -13,7 +13,7 @@ body {
   form {
     width: 100%;
     max-width: 400px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -24,9 +24,9 @@ body {
     margin-bottom: 5px;
     font-weight: bold;
   }
-  
+/*   
   input[type="text"],
-  input[type="email"],   
+  input[type="email"],    */
 
   textarea {
     width: 100%;
@@ -35,13 +35,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 3px;
   }
-  textarea {
-    height: 100px;   
 
-  }
-
-  @media (max-width: 768px) {
-    label {
-      text-align: left;
-    }
-  }
+textarea {
+    height: 100px;
+}
